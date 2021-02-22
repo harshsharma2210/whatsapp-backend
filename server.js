@@ -6,12 +6,12 @@ const Pusher = require("pusher");
 const cors = require("cors");
 
 const connection_url =
-  "mongodb+srv://admin:JtOIOvaXD9iEiSdD@cluster0.j6n9y.mongodb.net/whatsappdb?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@cluster0.j6n9y.mongodb.net/whatsappdb?retryWrites=true&w=majority";
 const pusher = new Pusher({
-  appId: "1158221",
-  key: "a968ab106b416a9b97d7",
-  secret: "b3bd758c1c2df890271a",
-  cluster: "ap2",
+  appId: "",
+  key: "",
+  secret: "",
+  cluster: "",
   useTLS: true,
 });
 
